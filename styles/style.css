@@ -1,4 +1,9 @@
 /* shared styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
 .bg-text-primary{
    color: rgb(58, 58, 58);
 }
@@ -140,6 +145,80 @@ background: rgb(255, 255, 255);
     width: 100%;
  }
 
+.collection-name{
+    font-size:1.75rem;
+    font-weight: 500;
+    color: rgb(24, 25, 31);
+}
+.price{
+    font-family: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+}
+.collection-info{
+    font-size: 0.87rem;
+    font-weight: 700;
+    color:rgb(120, 120, 133);
+}
+.ratings-icons>i{
+    color:rgb(251, 130, 0);
+}
+
+.see-more-btn{
+    font-size: 1rem;
+    font-weight: 700;
+    color:rgba(224, 44, 109, 0.87);
+    border: none;
+ 
+    background-color: rgba(255, 255, 255, 0.15);
+
+}
+.see-more{
+    margin: 5px;
+    text-align: end;
+
+}
+
+/* feature section styles */
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-content{
+    max-width: 610px;
+    margin-left:96px;
+}
+.feature-title{
+    font-size: 2.375rem;
+    font-weight: 700;
+    color:rgb(10, 8, 38);
+}
+.feature-info{
+    font-size: 1rem;
+    font-weight: 700;
+    color:rgb(108, 108, 108);
+    margin:16px 0;
+}
+.join-btn{
+    font-size: 1rem;
+    font-family: 700;
+    background: rgb(224, 44, 109);
+    color: white;
+    width: 155px;
+    padding: 10px 24px 10px 24px;
+    border:none;
+    
+}
+.feature-container>img{
+    width:100%;
+}
+
+
+
+
+
 
 
 
@@ -189,8 +268,27 @@ margin-left: 10px;
             grid-template-columns: repeat(1,1fr);
             gap: 30px;
         }
-}
+        /* .collection-box{
+            width:100%;
+        } */
+        .see-more{
+            margin:0px;
+            text-align: center;
+        
+        }
+        .feature-container{
+            flex-direction: column-reverse;
 
+        }
+        .feature-content{
+            margin-left: 0px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .feature{
+            margin:0 10px;
+        }
+}
 
 
 
@@ -213,5 +311,12 @@ margin-left: 10px;
     .sponsors-container{
         justify-content: center;
         gap: 30px;
+            }
+            .feature-content{
+                margin-left: 15px;
+               
+            }
+            .feature{
+                margin:0 10px;
             }
 }
