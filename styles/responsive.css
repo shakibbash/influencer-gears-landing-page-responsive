@@ -1,0 +1,27 @@
+
+/* smaller screen devices */
+@media screen and (max-width:576px) {
+
+    .navbar{
+flex-direction: column;
+margin:0 10px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin:0 10px;
+    }
+    .banner-content{
+        text-align: center;
+        margin-right: 0px;
+margin-left: 10px;
+/* width: 404px; */
+    }
+    /* .banner-title{
+        font-size: 1.5rem;
+    }
+   */
+    .banner-content > h2{
+        margin-bottom: 10px;
+    }
+   
+}
