@@ -108,8 +108,17 @@ border-radius: 41px;
 border: none;
 }
 
+/* sponsors section styles */
+.sponsors{
+    margin-top: 100px;
+}
+.sponsors-container{
+    max-width:1110px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
 
-
+}
 
 
 
@@ -155,8 +164,19 @@ margin-left: 10px;
    nav>ul{
     padding-left: 0px;
    }
+   .sponsors-container{
+    justify-content: center;
+    gap: 20px;
+        }
 }
 
+
+
+
+
+
+
+/* medium screen */
 @media screen and (min-width:576px) and (max-width:992px){
     .banner{
         flex-direction: column-reverse;
@@ -168,4 +188,9 @@ margin-left: 10px;
 margin-left: 10px;
 /* width: 404px; */
     }
+
+    .sponsors-container{
+        justify-content: center;
+        gap: 30px;
+            }
 }
