@@ -19,7 +19,9 @@
 .display-flex {
     display: flex;
 }
-
+ .txt-center{
+    text-align: center;
+ }
 
 body{
     font-family: Poppins;
@@ -120,9 +122,23 @@ border: none;
 
 }
 
+/* collection styles */
+.collection-box{
+    max-width:329px;
+    border-radius: 5px;
+    padding: 17px 15px 16px 15px;
 
-
-
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+}
+.collection-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+ .collection-box>img{
+    width: 100%;
+ }
 
 
 
@@ -167,6 +183,11 @@ margin-left: 10px;
    .sponsors-container{
     justify-content: center;
     gap: 20px;
+        }
+        .collection-container{
+        justify-items: center;
+            grid-template-columns: repeat(1,1fr);
+            gap: 30px;
         }
 }
 
