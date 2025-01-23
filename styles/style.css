@@ -20,6 +20,9 @@
 .bg-btn{
     background-color:rgb(224, 44, 109);
 }
+.pink{
+    color:rgb(224, 44, 109);
+}
 
 .display-flex {
     display: flex;
@@ -43,6 +46,7 @@ main>section{
 .navbar{
     justify-content: space-between;
     align-items: center;
+
 }
 
 
@@ -61,6 +65,7 @@ main>section{
 .navbar,.header {
     max-width: 1110px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .navbar-title{
@@ -91,7 +96,10 @@ main>section{
 }
 .banner-img>img{
     width: 100%;
-
+      
+}
+.banner-img>img:hover{
+    transform: scale(0.8) rotate(15deg) translateX(10px);
 }
 .banner-title{
     font-size: 3.25rem;
@@ -102,6 +110,8 @@ main>section{
     font-weight: 600;
     margin-top: 16px;
     margin-bottom: 16px;
+    color:rgb(108, 108, 108);
+
 }
 
 .banner-btn{
@@ -144,6 +154,10 @@ background: rgb(255, 255, 255);
  .collection-box>img{
     width: 100%;
  }
+ .collection-box>img:hover{
+    transform: scale(1.2) ;
+    cursor: pointer;
+}
 
 .collection-name{
     font-size:1.75rem;
