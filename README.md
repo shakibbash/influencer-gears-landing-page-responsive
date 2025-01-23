@@ -6,7 +6,7 @@ Start your journey as an influencer with our curated product recommendations. Th
 ## Preview
 
 ### Full Desktop View
-![Desktop Screenshot](INSERT_DESKTOP_IMAGE_URL_HERE)
+![Desktop View](https://i.postimg.cc/WzYprzSb/screenshot-1737636270829.png)
 
 ### Mobile View
 ![Mobile Screenshot](INSERT_MOBILE_IMAGE_URL_HERE)
