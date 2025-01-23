@@ -35,7 +35,7 @@ This website is fully responsive, ensuring optimal viewing on various devices, i
 
 
 ## Author
-Influencer Products &copy; 2020
+Shakib Hossain(shakibbash)-Influencer Products &copy; 2020
 
 ---
 For any inquiries or suggestions, feel free to contact us!
