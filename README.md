@@ -33,13 +33,6 @@ This website is fully responsive, ensuring optimal viewing on various devices, i
    ```
 2. Open the `index.html` file in your preferred web browser.
 
-## Screenshots
-
-### Desktop View
-![Desktop Screenshot](INSERT_DESKTOP_IMAGE_URL_HERE)
-
-### Mobile View
-![Mobile Screenshot](INSERT_MOBILE_IMAGE_URL_HERE)
 
 ## Author
 Influencer Products &copy; 2020
