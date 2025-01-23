@@ -71,6 +71,7 @@ main>section{
 .navbar-title{
     font-size: 1.5rem;
     font-weight: 700;
+    cursor: pointer;
 }
 /* banner styles */
 .banner{
@@ -124,6 +125,11 @@ font-weight: 700;
 border-radius: 41px;
 border: none;
 }
+.banner-btn:hover{
+    cursor: pointer;
+    background-color:rgb(195, 24, 87) ;
+    transform: scale(1.2);
+}
 
 /* sponsors section styles */
 .sponsors{
@@ -150,6 +156,9 @@ background: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
+}
+.collection-title{
+    margin-bottom: 10px;
 }
  .collection-box>img{
     width: 100%;
@@ -224,6 +233,11 @@ background: rgb(255, 255, 255);
     padding: 10px 24px 10px 24px;
     border:none;
     
+}
+.join-btn:hover{
+    cursor: pointer;
+    background-color:rgb(195, 24, 87) ;
+    transform: scale(1.2);
 }
 .feature-container>img{
     width:100%;
